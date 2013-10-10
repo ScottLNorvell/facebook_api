@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>facebook_api</title>
+<link rel="stylesheet" type="text/css" href="stylesheets/style.css" />
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="javascripts/scripts.js"></script>
+</head>
+<body>
+	<div id="outer-container">
+    <div id="inner-container">
+	<header>
+
+        <h1>Facebook App</h1>
+
+        <form id="search-form" action="/" method="get">
+
+          <input type="search" name="s" value="" placeholder="Enter a facebook username or id" autofocus />
+          <div id="search-button"  class="button" name="button" value="search">Search</div>
+          <div id="all-button" class="button" name="button" value="lucky">See all Names</div>
+
+        </form>
+
+    </header>
+
+    <div id="main">
+        <ol id="results"></ol>
+      </div>
+
+      <footer>
+        Copyright &copy;2013 Facebook App
+      </footer>
+	 </div><!-- #outer-container -->
+  </div><!-- #inner-container -->
+</body>
+</html>
